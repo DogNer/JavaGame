@@ -8,6 +8,7 @@ import com.badlogic.gdx.utils.ScreenUtils;
 public class MainGame extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
+	static String[] args;
 	
 	@Override
 	public void create () {
